@@ -1,7 +1,11 @@
-import { Clipboard, GraduationCap, Heart, Pause, Play, User } from "lucide-react"
+import { Clipboard, GraduationCap, Heart, Pause, Play, Search, User } from "lucide-react"
 import { useEffect, useState } from "react"
 import './navbar.css'
+
+
 const Navbar = () => {
+
+    
     const messages = [
         "15% Student Discount",
         "Free Shipping on Orders Over $50",
@@ -48,7 +52,7 @@ const Navbar = () => {
             </div>
 
 
-            <div>
+            <div className="sticky top-0 z-50  ">
                 <Fixednav> </Fixednav>
             </div>
 
@@ -70,7 +74,7 @@ const Fixednav = () => {
         "Explore"
     ]
     return (
-        <div className="mt-4 flex justify-between mx-10">
+        <div className="pt-4 pb-4 flex items-center justify-between px-10 bg-white">
             <div className="flex gap-7">
                 {
                     categoryMen.map((singleCategory, index) => {
@@ -80,9 +84,9 @@ const Fixednav = () => {
             </div>
 
 
-            {/* middle of teh */}
+            {/* middle of the */}
             <div>
-                <h1 className="text-2xl font-bold">GYMSHARK</h1>
+                <h1 className="text-2xl ml-20 font-bold">GYMSHARK</h1>
             </div>
 
 
@@ -91,8 +95,13 @@ const Fixednav = () => {
 
             <div className="flex gap-6 items-center mr-5">
                 <fieldset className="fieldset">
-
-                    <input type="text" className="hover-input-from input w-64 bg-gray-100 text-center px-3 py-2.5 rounded-full " placeholder="What are you looking for tod..." />
+                    <div className="relative">
+                        <Search className="absolute left-4 top-3"></Search>
+                        
+                    <input type="text" className="hover-input-from input w-76 pl-12 bg-gray-100 text-center px-4 py-2.5 rounded-full " 
+                    placeholder="What are you looking for tod..."
+                     />
+                    </div>
 
                 </fieldset>
 
