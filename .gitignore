@@ -1,0 +1,40 @@
+# 1. Dependencies (সবচেয়ে বড় ফোল্ডার, এটা গিটহাবে যাবে না)
+node_modules/
+.pnp
+.pnp.js
+
+# 2. Testing (টেস্ট রিপোর্টগুলো বাদ দিন)
+coverage/
+
+# 3. Production/Build (বিকাশ করা ফাইলগুলো গিটহাবে পুশ করবেন না)
+dist/
+build/
+out/
+.vercel
+.netlify
+
+# 4. Environment Variables (সিকিউরিটির জন্য খুবই জরুরি)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.local
+
+# 5. Logs (ডেবাগিং এর সময় তৈরি হওয়া লগ ফাইল)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 6. Editor & System Files (আপনার এডিটর বা ওএস এর আবর্জনা ফাইল)
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

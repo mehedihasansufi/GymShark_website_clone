@@ -1,0 +1,6 @@
+.hover-input-from:hover{
+    outline: 1px solid gray;
+    background: none;
+    color: gray;
+}
+
