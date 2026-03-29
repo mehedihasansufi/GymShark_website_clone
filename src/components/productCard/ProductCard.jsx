@@ -2,7 +2,7 @@ import { Heart } from 'lucide-react';
 
 
 const ProductCard = ({data}) => {
-    console.log(data.image);
+    // console.log(data.image);
     
     
     return (

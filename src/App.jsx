@@ -2,9 +2,11 @@ import { Suspense } from "react"
 import Hero from "./components/hero/Hero"
 import Mens from "./components/mens/Mens"
 import Navbar from "./components/navbar/Navbar"
+import WelcomeToYourEdit from "./components/welcomeToYourEdit/WelcomeToYourEdit"
 
 
 const MensApi = fetch("mens.json").then(res => res.json())
+const welcomeToYourEditApi=fetch("wclcomeToYourEdit.json").then(res=> res.json())
 
 
 function App() {
@@ -16,6 +18,10 @@ function App() {
       <Hero></Hero>
       <Suspense fallback={<p>Loading...</p>}>
         <Mens MensApi={MensApi}></Mens>
+      </Suspense>
+
+      <Suspense fallback={<p>loading...</p>}>
+         <WelcomeToYourEdit welcomeToYourEditApi={welcomeToYourEditApi}></WelcomeToYourEdit>
       </Suspense>
     </>
   )
