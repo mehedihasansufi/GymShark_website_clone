@@ -3,6 +3,7 @@ import Hero from "./components/hero/Hero"
 import Mens from "./components/mens/Mens"
 import Navbar from "./components/navbar/Navbar"
 import WelcomeToYourEdit from "./components/welcomeToYourEdit/WelcomeToYourEdit"
+import Popular from './components/popular/Popular'
 
 
 const MensApi = fetch("mens.json").then(res => res.json())
@@ -23,6 +24,10 @@ function App() {
       <Suspense fallback={<p>loading...</p>}>
          <WelcomeToYourEdit welcomeToYourEditApi={welcomeToYourEditApi}></WelcomeToYourEdit>
       </Suspense>
+
+      <Popular></Popular>
+
+      <div className=" mb-10"></div>
     </>
   )
 }
