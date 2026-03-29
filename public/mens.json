@@ -1,0 +1,43 @@
+[
+  
+  {
+    "id": 102,
+    "image": "https://cdn.shopify.com/s/files/1/1367/5207/files/images-ShadowLSMuscleFitTeeGSBlackGSBrandBlueA1B5B_BC8K_0389_V1_1920x.jpg?v=1770286685",
+    "stockStatus": "New",
+    "name": "Shadow Seamless Long Sleeve T-Shirt",
+    "fit": "Muscle Fit",
+    "color": "Black / Brand Blue",
+    "price": 50.0,
+    "rating": 4.5
+  },
+  {
+    "id": 103,
+    "image": "https://cdn.shopify.com/s/files/1/1367/5207/files/GeoSeamlessT-ShirtBlackCharcoalGreyA5A2D-BBF9-1838_A-Edit_b3954df9-a64f-4082-aaec-4d128f6b6b3a_1920x.jpg?v=1754992734",
+    "stockStatus": "New",
+    "name": "Geo Seamless T-Shirt",
+    "fit": "Slim Fit",
+    "color": "Black / Charcoal Grey",
+    "price": 45.0,
+    "rating": 4.5
+  },
+  {
+    "id": 104,
+    "image": "https://cdn.shopify.com/s/files/1/1367/5207/files/images-GeoSeamlessT_ShirtGSStormBlueGSStealthBlueA5A2D_UD8L_7562_V1_1920x.jpg?v=1770284782",
+    "stockStatus": "New",
+    "name": "Geo Seamless T-Shirt",
+    "fit": "Slim Fit",
+    "color": "Storm Blue / Stealth Blue",
+    "price": 45.0,
+    "rating": 4.4
+  },
+  {
+    "id": 101,
+    "image": "https://cdn.shopify.com/s/files/1/1367/5207/files/images-STT_ShirtGSStealthBlueGSDeepPetrolBlueA4C6H_UD7P_0034_V2_1920x.jpg?v=1769001016",
+    "stockStatus": "In Stock",
+    "name": "Physique T-Shirt",
+    "fit": "Muscle Fit",
+    "color": "GS Stealth Blue/GS Deep Petrol Blue",
+    "price": 90.0,
+    "rating": 4.5
+  }
+]
