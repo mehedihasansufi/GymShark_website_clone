@@ -4,10 +4,12 @@ import Mens from "./components/mens/Mens"
 import Navbar from "./components/navbar/Navbar"
 import WelcomeToYourEdit from "./components/welcomeToYourEdit/WelcomeToYourEdit"
 import Popular from './components/popular/Popular'
+import Womens from "./components/womens/Womens"
 
 
 const MensApi = fetch("mens.json").then(res => res.json())
-const welcomeToYourEditApi=fetch("wclcomeToYourEdit.json").then(res=> res.json())
+const WomensApi=fetch('womens.json').then(res=> res.json())
+const welcomeToYourEditApi = fetch("wclcomeToYourEdit.json").then(res => res.json())
 
 
 function App() {
@@ -22,10 +24,14 @@ function App() {
       </Suspense>
 
       <Suspense fallback={<p>loading...</p>}>
-         <WelcomeToYourEdit welcomeToYourEditApi={welcomeToYourEditApi}></WelcomeToYourEdit>
+        <WelcomeToYourEdit welcomeToYourEditApi={welcomeToYourEditApi}></WelcomeToYourEdit>
       </Suspense>
 
       <Popular></Popular>
+      
+      <Suspense fallback={<p>loading...</p>}>
+      <Womens WomensApi={WomensApi}></Womens>
+      </Suspense>
 
       <div className=" mb-10"></div>
     </>

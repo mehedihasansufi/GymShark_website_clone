@@ -6,7 +6,7 @@ const ProductCard = ({data}) => {
     
     
     return (
-        <div >
+        <div className='cursor-pointer'>
 
             <div className=''>
                 <div className='relative'>

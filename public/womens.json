@@ -1,0 +1,42 @@
+[
+  {
+    "id": 105,
+    "image": "https://cdn.shopify.com/s/files/1/1367/5207/files/images-RepsLegacyLeggingGSBlackB6B2L_BB2J_1095_V1_1920x.jpg?v=1770205611",
+    "stockStatus": "In Stock",
+    "name": "Legacy Leggings",
+    "fit": "Regular",
+    "color": "GS Black",
+    "price": 55.0,
+    "rating": 5.0
+  },
+  {
+    "id": 106,
+    "image": "https://cdn.shopify.com/s/files/1/1367/5207/files/images-PumpCoverZipThroughHoodieGSBlackWASHB6B5O_BC9J_1145_V2_1920x.jpg?v=1769428898",
+    "stockStatus": "In Stock",
+    "name": "Pump Zip Through Hoodie",
+    "fit": "Oversized Fit",
+    "color": "Black / Wash",
+    "price": 75.0,
+    "rating": 4.5
+  },
+  {
+    "id": 107,
+    "image": "https://cdn.shopify.com/s/files/1/1367/5207/files/images-LiftSeamlessLightSupportSportsBraGSCalmPinkB5C9A_KCPD_6522_V2_1920x.jpg?v=1770057471",
+    "stockStatus": "In Stock",
+    "name": "Lift Seamless Sports Bra",
+    "fit": "Light Support",
+    "color": "Calm Pink",
+    "price": 55.0,
+    "rating": 4.3
+  },
+  {
+    "id": 108,
+    "image": "https://cdn.shopify.com/s/files/1/1367/5207/files/images-LiftSeamlessLeggingsGSCalmPinkB6A9C_KCPD_6513_V2_1920x.jpg?v=1769099865",
+    "stockStatus": "In Stock",
+    "name": "Lift Seamless Leggings",
+    "fit": "Regular",
+    "color": "Calm Pink",
+    "price": 70.0,
+    "rating": 4.3
+  }
+]

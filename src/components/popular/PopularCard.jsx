@@ -2,7 +2,7 @@ import React from 'react';
 
 const PopularCard = ({data}) => {
     return (
-        <div>
+        <div className='cursor-pointer'>
             <div>
                 <img src={data.image} alt="" />
                 <h2 className='mt-2 font-bold text-lg'>{data.name}</h2>
